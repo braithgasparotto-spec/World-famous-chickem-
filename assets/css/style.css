@@ -113,10 +113,11 @@ p{ margin: 0 0 1em; color: var(--text-dim); }
 }
 .logo{ display:flex; align-items:center; gap:11px; font-family:"Anton",sans-serif; font-weight:400; font-size:1.2rem; letter-spacing:.02em; text-transform:uppercase; }
 .logo-mark{
-  display:inline-flex; align-items:center; justify-content:center;
-  width:38px; height:38px; border-radius: 9px;
-  background: linear-gradient(135deg, var(--flame1), var(--flame2));
-  color:#1a0800; font-size:1rem; font-family:"Anton",sans-serif;
+  display:inline-block;
+  width:40px; height:40px; border-radius: 9px;
+  object-fit: cover; object-position: center;
+  background: #0b0704;
+  border: 1px solid rgba(255,90,31,.25);
 }
 .logo-text em{ color: var(--flame1); font-style: normal; }
 
