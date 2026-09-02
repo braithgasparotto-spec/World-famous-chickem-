@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu | World Famous Chicken</title>
+<meta name="description" content="Full menu for World Famous Chicken St Clair — chicken meals, roasts, family packs, gourmet burgers, rolls and wraps.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+window.handleImgError = function (img) {
+  if (img.dataset.fallbackApplied) return;
+  img.dataset.fallbackApplied = 'true';
+  var label = img.getAttribute('data-fallback-label') || 'Photo coming soon';
+  var wrap = document.createElement('div');
+  wrap.className = 'img-fallback';
+  wrap.innerHTML = '<span><strong>' + label + '</strong>Photo to be added</span>';
+  img.replaceWith(wrap);
+};
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">WFC</span>
+      <span class="logo-text">World Famous <em>Chicken</em></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="menu.html" aria-current="page">Menu</a>
+      <a href="gallery.html">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Find Us</a>
+      <a href="tel:+61298343516" class="btn btn-primary btn-small">Call to Order</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<main id="main">
+  <div class="page-hero">
+    <div class="container reveal">
+      <p class="eyebrow">The Menu</p>
+      <h1>Everything We Cook, Fresh Daily</h1>
+      <p>Prices below are transcribed from our in-store menu boards &mdash; always confirm with staff for the latest pricing on today's specials.</p>
+    </div>
+  </div>
+
+  <nav class="menu-nav container" aria-label="Menu categories">
+    <a href="#chicken-meals">Chicken Meals</a>
+    <a href="#roast">Roast</a>
+    <a href="#family-packs">Family Packs</a>
+    <a href="#burgers">Burgers</a>
+    <a href="#rolls-wraps">Rolls &amp; Wraps</a>
+    <a href="#packs-kids">Packs &amp; Kids</a>
+    <a href="#combos">Value Combos</a>
+    <a href="#sides">Sides &amp; Extras</a>
+  </nav>
+
+  <div class="container">
+
+    <div class="menu-category" id="chicken-meals">
+      <div class="menu-cat-head"><h2>Chicken Meals</h2></div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">1. Chicken &amp; Chips</p>
+            <p class="menu-item-desc">Charcoal chicken with chips</p>
+          </div>
+          <div class="menu-tier-price">
+            <div class="tier"><span class="tier-label">Qtr</span><span class="menu-item-price" style="font-size:.95rem;">$11.50</span></div>
+            <div class="tier"><span class="tier-label">Half</span><span class="menu-item-price" style="font-size:.95rem;">$15.50</span></div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">2. Chicken &amp; Salad</p>
+            <p class="menu-item-desc">Chicken with any choice of 3 salads</p>
+          </div>
+          <div class="menu-tier-price">
+            <div class="tier"><span class="tier-label">Qtr</span><span class="menu-item-price" style="font-size:.95rem;">$15.00</span></div>
+            <div class="tier"><span class="tier-label">Half</span><span class="menu-item-price" style="font-size:.95rem;">$20.00</span></div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">3. Chicken Dinner</p>
+            <p class="menu-item-desc">Chicken with choice of any hot dish, gravy</p>
+          </div>
+          <div class="menu-tier-price">
+            <div class="tier"><span class="tier-label">Qtr</span><span class="menu-item-price" style="font-size:.95rem;">$16.88</span></div>
+            <div class="tier"><span class="tier-label">Half</span><span class="menu-item-price" style="font-size:.95rem;">$20.00</span></div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">4. Chicken Combination</p>
+            <p class="menu-item-desc">Chicken, chips &amp; salad or hot dish (gravy optional)</p>
+          </div>
+          <div class="menu-tier-price">
+            <div class="tier"><span class="tier-label">Qtr</span><span class="menu-item-price" style="font-size:.95rem;">$16.00</span></div>
+            <div class="tier"><span class="tier-label">Half</span><span class="menu-item-price" style="font-size:.95rem;">$20.00</span></div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">5. Chicken Hawaiian</p>
+            <p class="menu-item-desc">Chicken with chips &amp; 2 pineapple fritters</p>
+          </div>
+          <div class="menu-tier-price">
+            <div class="tier"><span class="tier-label">Qtr</span><span class="menu-item-price" style="font-size:.95rem;">$16.00</span></div>
+            <div class="tier"><span class="tier-label">Half</span><span class="menu-item-price" style="font-size:.95rem;">$20.00</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" id="roast">
+      <div class="menu-cat-head"><h2>Roast</h2></div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Roast of the Day</p>
+            <p class="menu-item-desc">Pork, beef or lamb</p>
+          </div>
+          <div class="menu-item-price">$40.00<small>per kg</small></div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Roast Dinner</p>
+            <p class="menu-item-desc">Slice of roast with hot dish &amp; gravy</p>
+          </div>
+          <div class="menu-item-price">$15.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Roast Pack</p>
+            <p class="menu-item-desc">Slice of roast with chips &amp; gravy</p>
+          </div>
+          <div class="menu-item-price">$15.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Roast Roll</p>
+            <p class="menu-item-desc">Choice of pork or beef with gravy</p>
+          </div>
+          <div class="menu-item-price">$12.00</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" id="family-packs">
+      <div class="menu-cat-head"><h2>Family Packs</h2></div>
+      <div class="family-pack-grid">
+        <div class="family-pack-card reveal">
+          <span class="price">$45</span>
+          <h3>Family Pack 1</h3>
+          <p>Whole chicken, regular salad or hot dish, regular chips, small gravy &amp; 1.25L Coca-Cola variety</p>
+        </div>
+        <div class="family-pack-card reveal">
+          <span class="price">$50</span>
+          <h3>Family Pack 2</h3>
+          <p>Whole chicken, large salad or hot dish, large chips, small gravy &amp; 1.25L Coca-Cola variety</p>
+        </div>
+        <div class="family-pack-card reveal">
+          <span class="price">$80</span>
+          <h3>Family Pack 3</h3>
+          <p>2 whole chickens, large salad, large hot dish, large chips, regular gravy &amp; 2L Coca-Cola variety</p>
+        </div>
+        <div class="family-pack-card reveal">
+          <span class="price">$99.99</span>
+          <h3>Family Pack 4</h3>
+          <p>3 whole chickens, large salad, large hot dish, large garlic sauce &amp; gravy, 2L Coca-Cola variety</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" id="burgers">
+      <div class="menu-cat-head"><h2>Gourmet Burgers</h2><span class="menu-cat-note">All burger combos come with small chips &amp; a drink</span></div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Grilled Chicken Burger</p>
+            <p class="menu-item-desc">Grilled chicken, cheese, lettuce &amp; mayo</p>
+          </div>
+          <div class="menu-tier-price">
+            <div class="tier"><span class="tier-label">Qtr</span><span class="menu-item-price" style="font-size:.95rem;">$12.00</span></div>
+            <div class="tier"><span class="tier-label">Half</span><span class="menu-item-price" style="font-size:.95rem;">$20.00</span></div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Double Grilled Chicken Fillet Burger</p>
+            <p class="menu-item-desc">Double grilled chicken fillet, cheese, lettuce &amp; mayo</p>
+          </div>
+          <div class="menu-tier-price">
+            <div class="tier"><span class="tier-label">Qtr</span><span class="menu-item-price" style="font-size:.95rem;">$14.00</span></div>
+            <div class="tier"><span class="tier-label">Half</span><span class="menu-item-price" style="font-size:.95rem;">$22.00</span></div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Hawaiian Burger</p>
+            <p class="menu-item-desc">Grilled chicken, pineapple, cheese, lettuce &amp; mayo</p>
+          </div>
+          <div class="menu-tier-price">
+            <div class="tier"><span class="tier-label">Qtr</span><span class="menu-item-price" style="font-size:.95rem;">$14.00</span></div>
+            <div class="tier"><span class="tier-label">Half</span><span class="menu-item-price" style="font-size:.95rem;">$22.00</span></div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Fiesta Burger</p>
+            <p class="menu-item-desc">Grilled chicken, cheese, lettuce, mayo, tomato &amp; avocado</p>
+          </div>
+          <div class="menu-tier-price">
+            <div class="tier"><span class="tier-label">Qtr</span><span class="menu-item-price" style="font-size:.95rem;">$14.00</span></div>
+            <div class="tier"><span class="tier-label">Half</span><span class="menu-item-price" style="font-size:.95rem;">$22.00</span></div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Sweet Burger</p>
+            <p class="menu-item-desc">Grilled chicken, cheese, lettuce, mayo, sour cream &amp; sweet chilli sauce</p>
+          </div>
+          <div class="menu-tier-price">
+            <div class="tier"><span class="tier-label">Qtr</span><span class="menu-item-price" style="font-size:.95rem;">$13.00</span></div>
+            <div class="tier"><span class="tier-label">Half</span><span class="menu-item-price" style="font-size:.95rem;">$21.00</span></div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Classic Beef Hamburger</p>
+            <p class="menu-item-desc">Beef patty, lettuce, tomato &amp; beetroot</p>
+          </div>
+          <div class="menu-tier-price">
+            <div class="tier"><span class="tier-label">Qtr</span><span class="menu-item-price" style="font-size:.95rem;">$10.00</span></div>
+            <div class="tier"><span class="tier-label">Half</span><span class="menu-item-price" style="font-size:.95rem;">$18.00</span></div>
+          </div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Classic Hamburger The Lot</p>
+            <p class="menu-item-desc">Beef patty, bacon, egg, pineapple, cheese, tomato, beetroot, cooked onion &amp; choice of sauce</p>
+          </div>
+          <div class="menu-tier-price">
+            <div class="tier"><span class="tier-label">Qtr</span><span class="menu-item-price" style="font-size:.95rem;">$15.00</span></div>
+            <div class="tier"><span class="tier-label">Half</span><span class="menu-item-price" style="font-size:.95rem;">$23.00</span></div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" id="rolls-wraps">
+      <div class="menu-cat-head"><h2>Rolls &amp; Wraps</h2></div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Breakfast Roll</p>
+            <p class="menu-item-desc">Bacon &amp; egg</p>
+          </div>
+          <div class="menu-item-price">$3.50</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Chicken Roll</p>
+            <p class="menu-item-desc"></p>
+          </div>
+          <div class="menu-item-price">$6.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Chicken Schnitzel Roll</p>
+            <p class="menu-item-desc"></p>
+          </div>
+          <div class="menu-item-price">$6.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Chicken Strip Roll</p>
+            <p class="menu-item-desc"></p>
+          </div>
+          <div class="menu-item-price">$6.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Chicken Wrap</p>
+            <p class="menu-item-desc">With lettuce &amp; mayo, or Caesar salad</p>
+          </div>
+          <div class="menu-item-price">$6.00</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" id="packs-kids">
+      <div class="menu-cat-head"><h2>Chicken Packs &amp; Kids Meals</h2></div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Chicken Schnitzel Pack</p>
+            <p class="menu-item-desc">Schnitzel with chips &amp; salad</p>
+          </div>
+          <div class="menu-item-price">$16.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Chicken Strip Pack</p>
+            <p class="menu-item-desc">2 chicken strips with chips &amp; salad</p>
+          </div>
+          <div class="menu-item-price">$15.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Nuggets Pack</p>
+            <p class="menu-item-desc">7 nuggets, chips &amp; fruit drink</p>
+          </div>
+          <div class="menu-item-price">$12.00<small>Kids</small></div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Cheese Burger Combo</p>
+            <p class="menu-item-desc">With small chips &amp; a Keri fruit drink</p>
+          </div>
+          <div class="menu-item-price">$15.00<small>Kids</small></div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" id="combos">
+      <div class="menu-cat-head"><h2>Value Combos &amp; Kebabs</h2></div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">3 Chicken Strips + 2 Kebab Sticks</p>
+            <p class="menu-item-desc">With small chips</p>
+          </div>
+          <div class="menu-item-price">$26.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">2 Grilled Chicken Burgers</p>
+            <p class="menu-item-desc">With small chips</p>
+          </div>
+          <div class="menu-item-price">$22.00</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Chicken Kebab</p>
+            <p class="menu-item-desc">Lettuce, tomato, onion, cheese &amp; choice of sauce</p>
+          </div>
+          <div class="menu-item-price">$10.00</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="menu-category" id="sides">
+      <div class="menu-cat-head"><h2>Sides, Chips &amp; Extras</h2><span class="menu-cat-note">Ask in-store for current sizes &amp; pricing</span></div>
+      <div class="menu-grid">
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Hot Chips</p>
+            <p class="menu-item-desc">Small / Regular / Large</p>
+          </div>
+          <div class="menu-item-price">In-store</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Wedges</p>
+            <p class="menu-item-desc">Small / Regular / Large</p>
+          </div>
+          <div class="menu-item-price">In-store</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Flame BBQ Chicken</p>
+            <p class="menu-item-desc">Ask about today's flame-grilled options</p>
+          </div>
+          <div class="menu-item-price">In-store</div>
+        </div>
+        <div class="menu-item">
+          <div>
+            <p class="menu-item-name">Extras</p>
+            <p class="menu-item-desc">Egg, bacon, cheese, pineapple, avocado</p>
+          </div>
+          <div class="menu-item-price">$1.50 each</div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+
+  <!-- ============ CTA BANNER ============ -->
+  <section class="cta-banner">
+    <div class="container reveal">
+      <div>
+        <h2>Ready to order?</h2>
+        <p>Call ahead and we'll have it ready for pickup.</p>
+      </div>
+      <a href="tel:+61298343516" class="btn btn-primary">Call to Order</a>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">WFC</span>
+        <span class="logo-text">World Famous <em>Chicken</em></span>
+      </a>
+      <p>Gourmet chicken, burgers, freshly made salads, hot food, cold drinks &amp; catering — St Clair's local chicken shop.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/world.famouschicken/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.facebook.com/wfc202/" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9h3V6h-3a4 4 0 0 0-4 4v2H7v3h3v6h3v-6h3l1-3h-4v-2a1 1 0 0 1 1-1z"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+61298343516">(02) 9834 3516</a></li>
+        <li>Shop 2/44 Melville Rd</li>
+        <li>St Clair NSW 2759</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Find Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; <span id="year"></span> World Famous Chicken. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>

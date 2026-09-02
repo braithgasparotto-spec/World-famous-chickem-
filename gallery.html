@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Gallery | World Famous Chicken</title>
+<meta name="description" content="Photos from World Famous Chicken in St Clair — fresh salads, storefront and menu.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Anton&family=Work+Sans:wght@400;500;600;700&display=swap">
+<link rel="stylesheet" href="assets/css/style.css">
+<script>
+window.handleImgError = function (img) {
+  if (img.dataset.fallbackApplied) return;
+  img.dataset.fallbackApplied = 'true';
+  var label = img.getAttribute('data-fallback-label') || 'Photo coming soon';
+  var wrap = document.createElement('div');
+  wrap.className = 'img-fallback';
+  wrap.innerHTML = '<span><strong>' + label + '</strong>Photo to be added</span>';
+  img.replaceWith(wrap);
+};
+</script>
+</head>
+<body>
+
+<a class="skip-link" href="#main">Skip to content</a>
+<!-- ============ HEADER ============ -->
+<header class="site-header" id="siteHeader">
+  <div class="container header-inner">
+    <a href="index.html" class="logo">
+      <span class="logo-mark">WFC</span>
+      <span class="logo-text">World Famous <em>Chicken</em></span>
+    </a>
+
+    <nav class="main-nav" id="mainNav">
+      <a href="index.html">Home</a>
+      <a href="menu.html">Menu</a>
+      <a href="gallery.html" aria-current="page">Gallery</a>
+      <a href="about.html">About</a>
+      <a href="contact.html">Find Us</a>
+      <a href="tel:+61298343516" class="btn btn-primary btn-small">Call to Order</a>
+    </nav>
+
+    <button class="nav-toggle" id="navToggle" aria-label="Toggle navigation" aria-expanded="false">
+      <span></span><span></span><span></span>
+    </button>
+  </div>
+</header>
+<main id="main">
+  <div class="page-hero">
+    <div class="container reveal">
+      <p class="eyebrow">Gallery</p>
+      <h1>A Look Inside World Famous Chicken</h1>
+      <p>Fresh food, made daily, right here in St Clair.</p>
+    </div>
+  </div>
+
+  <section class="gallery">
+    <div class="container">
+      <div class="gallery-grid">
+        <figure class="gallery-item reveal large">
+          <img src="images/fresh-salads-display.jpg" alt="Fresh salads display case at World Famous Chicken" data-fallback-label="Fresh Salads Display" onerror="handleImgError(this)">
+          <figcaption><span>In-Store</span> Fresh Salads, Made Daily</figcaption>
+        </figure>
+        <figure class="gallery-item reveal">
+          <img src="images/storefront-signage.jpg" alt="World Famous Chicken storefront signage" data-fallback-label="Storefront Signage" onerror="handleImgError(this)">
+          <figcaption><span>Storefront</span> World Famous Chicken</figcaption>
+        </figure>
+        <figure class="gallery-item reveal">
+          <img src="images/menu-board-burgers.jpg" alt="Gourmet chicken burger menu board" data-fallback-label="Burger Menu Board" onerror="handleImgError(this)">
+          <figcaption><span>Menu</span> Gourmet Burgers</figcaption>
+        </figure>
+        <figure class="gallery-item reveal">
+          <img src="images/menu-board-chicken-meals.jpg" alt="Chicken meal, roast and family pack menu board" data-fallback-label="Chicken Meal Menu Board" onerror="handleImgError(this)">
+          <figcaption><span>Menu</span> Chicken Meals &amp; Family Packs</figcaption>
+        </figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ CTA BANNER ============ -->
+  <section class="cta-banner">
+    <div class="container reveal">
+      <div>
+        <h2>Want to see more?</h2>
+        <p>Follow us on Instagram and Facebook for daily specials and behind-the-scenes.</p>
+      </div>
+      <a href="tel:+61298343516" class="btn btn-primary">Call Us</a>
+    </div>
+  </section>
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="site-footer">
+  <div class="container footer-inner">
+    <div class="footer-brand">
+      <a href="index.html" class="logo">
+        <span class="logo-mark">WFC</span>
+        <span class="logo-text">World Famous <em>Chicken</em></span>
+      </a>
+      <p>Gourmet chicken, burgers, freshly made salads, hot food, cold drinks &amp; catering — St Clair's local chicken shop.</p>
+      <div class="footer-social">
+        <a href="https://www.instagram.com/world.famouschicken/" aria-label="Instagram" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.5" cy="6.5" r="1" fill="currentColor" stroke="none"/></svg></a>
+        <a href="https://www.facebook.com/wfc202/" aria-label="Facebook" target="_blank" rel="noopener"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 9h3V6h-3a4 4 0 0 0-4 4v2H7v3h3v6h3v-6h3l1-3h-4v-2a1 1 0 0 1 1-1z"/></svg></a>
+      </div>
+    </div>
+
+    <div class="footer-col">
+      <h4>Contact</h4>
+      <ul>
+        <li><a href="tel:+61298343516">(02) 9834 3516</a></li>
+        <li>Shop 2/44 Melville Rd</li>
+        <li>St Clair NSW 2759</li>
+      </ul>
+    </div>
+
+    <div class="footer-col">
+      <h4>Explore</h4>
+      <ul>
+        <li><a href="menu.html">Menu</a></li>
+        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="about.html">About</a></li>
+        <li><a href="contact.html">Find Us</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="container footer-bottom">
+    <p>&copy; <span id="year"></span> World Famous Chicken. All rights reserved.</p>
+  </div>
+</footer>
+
+<script src="assets/js/main.js"></script>
+</body>
+</html>
