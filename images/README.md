@@ -1,20 +1,19 @@
-# Image files needed
+# Image files
 
-Drop photos into this `images/` folder using the exact filenames below —
-the site already references these paths, so each one replaces its
-placeholder automatically as soon as it appears (no code changes needed).
-
+## In place
 | Filename | Used for |
 |---|---|
-| `storefront-signage.jpg` | Home hero background, Gallery, teaser card |
-| `fresh-salads-display.jpg` | Home teaser, Gallery (large tile) |
-| `menu-board-chicken-meals.jpg` | Home teaser, Gallery |
-| `menu-board-burgers.jpg` | Gallery |
+| `chickens.jpg` | Home hero background, Gallery (large tile) — rotisserie chicken |
+| `food-selection.jpg` | Home teaser (Menu), Gallery — fried chicken tenders & mac 'n' cheese |
+| `caesar-salad.jpg` | Gallery — Caesar salad |
+| `greek-salad.jpg` | Home teaser (Gallery), Gallery — Greek salad |
+| `fish.jpg` | Gallery — fried fish & seafood cocktails |
+| `world-banner.jpg` | Home teaser (Find Us), Gallery, About page feature image — branded signage/flyer |
 
 ## Still wanted
-A few more real photos would round out the site nicely:
-- Food shots (a plated chicken meal, a burger, family pack)
-- Storefront exterior (daytime, from the street)
-- Interior / counter shot
+- **Storefront exterior** (daytime, from the street) — for the Find Us page
+- **Interior / counter shot** — for extra gallery variety
+- **A plated meal** (chicken & chips, a burger, a family pack) if you have one
 
-Recommended: JPEGs around 1600–2000px wide, compressed to keep the site fast.
+Drop new files into this folder using a clear filename, then tell Claude where
+they should go — or just say "check the Drive folder again."
