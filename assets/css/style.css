@@ -492,6 +492,39 @@ section{ padding: 96px 0; }
   .family-pack-grid{ grid-template-columns: 1fr; }
   section{ padding: 64px 0; }
   .page-hero{ padding: 136px 0 46px; }
-  .cta-banner .container{ flex-direction:column; align-items:flex-start; }
+  .cta-banner .container{ flex-direction:column; align-items:center; text-align:center; }
   .menu-nav{ top: 64px; }
+
+  /* ---- centered layout on mobile ---- */
+  .page-hero .container, .page-hero h1, .page-hero p{ text-align:center; }
+  .page-hero h1, .page-hero p{ margin-left:auto; margin-right:auto; }
+
+  .hero-card{ text-align:center; margin-left:auto; margin-right:auto; }
+  .hero-actions, .hero-tags{ justify-content:center; }
+  .hero-rating{ justify-content:center; width:100%; }
+  .hero-sub{ margin-left:auto; margin-right:auto; }
+
+  .section-head{ text-align:center; margin-left:auto; margin-right:auto; }
+
+  .teaser-overlay{ align-items:center; text-align:center; }
+  .teaser-overlay p{ margin-left:auto; margin-right:auto; }
+
+  .info-card, .about-card{ text-align:center; }
+  .info-card-icon, .about-card-icon{ margin-left:auto; margin-right:auto; }
+  .feature-image{ margin-left:auto; margin-right:auto; }
+
+  .family-pack-card{ text-align:center; align-items:center; }
+
+  .cta-banner h2, .cta-banner p{ margin-left:auto; margin-right:auto; }
+
+  .menu-section-head{ text-align:center; }
+  .menu-section-head p{ margin-left:auto; margin-right:auto; }
+  .menu-cat-head{ flex-direction:column; align-items:center; text-align:center; gap:6px; }
+
+  .contact-copy{ text-align:center; }
+
+  .footer-inner{ text-align:center; }
+  .footer-brand .logo{ justify-content:center; }
+  .footer-brand p{ margin-left:auto; margin-right:auto; }
+  .footer-social{ justify-content:center; }
 }
