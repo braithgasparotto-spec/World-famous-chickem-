@@ -36,7 +36,6 @@ window.handleImgError = function (img) {
       <nav class="main-nav" id="mainNav">
       <a href="index.html">Home</a>
       <a href="menu.html" aria-current="page">Menu</a>
-      <a href="gallery.html">Gallery</a>
       <a href="about.html">About</a>
       <a href="contact.html">Find Us</a>
       <a href="tel:+61298343516" class="btn btn-primary btn-small">Call to Order</a>
@@ -58,9 +57,19 @@ window.handleImgError = function (img) {
       <p class="eyebrow">The Menu</p>
       <h1>Everything We Cook, Fresh Daily</h1>
       <p>Prices below are transcribed from our in-store menu boards &mdash; always confirm with staff for the latest pricing on today's specials.</p>
+      <div class="hero-actions" style="margin-top:24px;">
+        <a href="#takeaway" class="btn btn-primary">Takeaway Menu</a>
+        <a href="#catering" class="btn btn-light">Catering</a>
+      </div>
     </div>
   </div>
 
+  <div class="menu-section-head container" id="takeaway">
+    <p class="eyebrow">Order Ahead</p>
+    <h2>Takeaway Menu</h2>
+  </div>
+
+  <div class="menu-takeaway-wrap">
   <nav class="menu-nav container" aria-label="Menu categories">
     <a href="#chicken-meals">Chicken Meals</a>
     <a href="#roast">Roast</a>
@@ -403,6 +412,20 @@ window.handleImgError = function (img) {
     </div>
 
   </div>
+  </div>
+
+  <div class="menu-section-head container" id="catering">
+    <p class="eyebrow">Book Ahead</p>
+    <h2>Catering</h2>
+    <p>Feeding a crowd? We cater for birthdays, work functions and family gatherings &mdash; platters of chicken, salads, burgers and more, ready for pickup or delivery.</p>
+  </div>
+
+  <div class="container">
+    <div class="catering-placeholder reveal">
+      <p>Our full catering menu &amp; pricing is coming soon. In the meantime, call us to ask about packages for your event.</p>
+      <a href="tel:+61298343516" class="btn btn-primary">Call to Enquire</a>
+    </div>
+  </div>
 
   <!-- ============ CTA BANNER ============ -->
   <section class="cta-banner">
@@ -444,7 +467,7 @@ window.handleImgError = function (img) {
       <h4>Explore</h4>
       <ul>
         <li><a href="menu.html">Menu</a></li>
-        <li><a href="gallery.html">Gallery</a></li>
+        <li><a href="menu.html#catering">Catering</a></li>
         <li><a href="about.html">About</a></li>
         <li><a href="contact.html">Find Us</a></li>
       </ul>
