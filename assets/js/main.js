@@ -47,6 +47,26 @@ if ('IntersectionObserver' in window) {
 /* handleImgError is defined inline in <head> (see the page template) so it
    exists before any <img onerror> can fire — see index.html for details. */
 
+/* Hero photo slider */
+const heroSlides = document.querySelectorAll('.hero-slide');
+if (heroSlides.length > 1) {
+  let heroIndex = 0;
+  const showSlide = (i) => {
+    heroIndex = (i + heroSlides.length) % heroSlides.length;
+    heroSlides.forEach((slide, idx) => slide.classList.toggle('is-active', idx === heroIndex));
+  };
+  const reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  let heroTimer;
+  const startHeroTimer = () => {
+    if (reduceMotion) return;
+    clearInterval(heroTimer);
+    heroTimer = setInterval(() => showSlide(heroIndex + 1), 6000);
+  };
+  document.getElementById('heroPrev')?.addEventListener('click', () => { showSlide(heroIndex - 1); startHeroTimer(); });
+  document.getElementById('heroNext')?.addEventListener('click', () => { showSlide(heroIndex + 1); startHeroTimer(); });
+  startHeroTimer();
+}
+
 /* Menu category nav: highlight active section on scroll */
 const menuNavLinks = document.querySelectorAll('.menu-nav a');
 if (menuNavLinks.length) {
