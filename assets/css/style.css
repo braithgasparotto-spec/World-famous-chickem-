@@ -108,17 +108,22 @@ p{ margin: 0 0 1em; color: var(--text-dim); }
 }
 .site-header.scrolled{ padding: 12px 0; }
 .header-inner{
+  position: relative; z-index: 1;
   display:flex; align-items:center; justify-content:space-between;
   gap: 18px;
   padding: 10px 10px 10px 20px;
+  border-radius: 999px;
+}
+.header-inner::before{
+  content:""; position:absolute; inset:0; z-index:-1;
+  border-radius: 999px;
   background: rgba(14,11,9,.55);
   backdrop-filter: blur(14px) saturate(140%);
   -webkit-backdrop-filter: blur(14px) saturate(140%);
   border: 1px solid rgba(255,90,31,.35);
-  border-radius: 999px;
   transition: background .3s var(--ease), border-color .3s var(--ease), box-shadow .3s var(--ease);
 }
-.site-header.scrolled .header-inner{
+.site-header.scrolled .header-inner::before{
   background: rgba(14,11,9,.92);
   border-color: rgba(255,90,31,.55);
   box-shadow: 0 10px 30px -14px rgba(0,0,0,.6);
