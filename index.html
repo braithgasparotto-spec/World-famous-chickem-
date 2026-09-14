@@ -141,6 +141,25 @@ window.handleImgError = function (img) {
     </div>
   </section>
 
+  <!-- ============ GALLERY ============ -->
+  <section class="gallery-strip">
+    <div class="container">
+      <div class="section-head reveal">
+        <p class="eyebrow">See &amp; Taste</p>
+        <h2>Straight From the Shop</h2>
+      </div>
+      <div class="gallery-grid">
+        <div class="gallery-item gallery-item-video reveal">
+          <video src="videos/gallery-roast-tray.mp4" poster="images/gallery-roast-tray-poster.jpg" autoplay muted loop playsinline preload="metadata" aria-label="Fresh roasted chickens straight out of the oven"></video>
+          <span class="gallery-play-badge" aria-hidden="true">&#9654;</span>
+        </div>
+        <div class="gallery-item reveal">
+          <img src="images/gallery-chicken-roll.jpg" alt="Crispy chicken tender roll with fresh salad" data-fallback-label="Gallery" onerror="handleImgError(this)">
+        </div>
+      </div>
+    </div>
+  </section>
+
   <!-- ============ INFO STRIP ============ -->
   <section class="info-strip">
     <div class="container">
